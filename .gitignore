@@ -67,3 +67,63 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+
+# Compiled executables
+
+*.exe
+*.out
+*.app
+
+# Object files
+
+*.o
+*.obj
+
+# Build directories
+
+build/
+bin/
+out/
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+
+# Visual Studio files
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake generated files
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Debug / profiling files
+
+*.dSYM/
+*.prof
+
+# Local test output
+
+*.log
