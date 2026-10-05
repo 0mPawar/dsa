@@ -35,7 +35,7 @@
 *.lib
 
 # Executables
-*.exe
+
 *.out
 *.app
 
@@ -53,7 +53,6 @@ install_manifest.txt
 compile_commands.json
 
 # Temporary files
-*.tmp
 *.log
 *.bak
 *.swp
@@ -71,7 +70,6 @@ Testing/
 
 # Compiled executables
 
-*.exe
 *.out
 *.app
 
@@ -116,6 +114,7 @@ Thumbs.db
 
 *.tmp
 *.temp
+
 *.swp
 *.swo
 
@@ -127,3 +126,11 @@ Thumbs.db
 # Local test output
 
 *.log
+
+wnotes/
+temp/
+*.exe
+code/
+
+
+tempCodeRunnerFile.cpp
